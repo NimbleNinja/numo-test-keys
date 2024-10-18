@@ -16,7 +16,11 @@ const ICONS = {
 const StyledButton: React.FC<Props> = ({ onPress, type }) => {
   const Icon = ICONS[type]
   return (
-    <Pressable onPress={onPress} style={styles.button}>
+    <Pressable
+      android_ripple={{ color: '#9763FF33', borderless: false, radius: 32, foreground: false }}
+      onPress={onPress}
+      style={styles.button}
+    >
       <Icon fill="#9763FF" />
     </Pressable>
   )
