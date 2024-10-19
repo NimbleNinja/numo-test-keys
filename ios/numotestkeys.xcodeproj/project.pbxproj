@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AEE3CBE8DB3428BB90DB640 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F974D6ED604239AAF138B8 /* Inter-Bold.ttf */; };
+		059804AB6BB44F7FB94874B0 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2F3BDE23E548C1B38FF2F4 /* Inter-SemiBold.ttf */; };
+		05F7DB15A6DC4D6E93DA836B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66A38FA739564A76A158D59F /* Inter-Bold.ttf */; };
+		08DE360646D36726F6BB052B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 187FF2E29E25E13946929B3E /* PrivacyInfo.xcprivacy */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		907B48720CCA4399898F1F30 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB1A19FAC7CB4934833B0D3A /* Inter-Medium.ttf */; };
+		468A1990F9FF418691CF0014 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E014F141FB4413C9FF1975E /* noop-file.swift */; };
 		96905EF65AED1B983A6B3ABC /* libPods-numotestkeys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-numotestkeys.a */; };
-		ACFEA4F311EC1CB35012D4DE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C89FD4F58B8FA47DF89E3 /* PrivacyInfo.xcprivacy */; };
+		985D40273BBB44569A678C07 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72901DE922FC45E4A179F293 /* Inter-Medium.ttf */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BC9509CA5B1E4EFD9BB52C7F /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AA95B21861402B96331840 /* noop-file.swift */; };
-		FA81CA6DB1314354909F1B47 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3313B7880E3F4080A0C45BC8 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,17 +28,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = numotestkeys/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = numotestkeys/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = numotestkeys/main.m; sourceTree = "<group>"; };
-		1A6C89FD4F58B8FA47DF89E3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = numotestkeys/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3313B7880E3F4080A0C45BC8 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		3C68075265774918A371ADF2 /* numotestkeys-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "numotestkeys-Bridging-Header.h"; path = "numotestkeys/numotestkeys-Bridging-Header.h"; sourceTree = "<group>"; };
+		187FF2E29E25E13946929B3E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = numotestkeys/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-numotestkeys.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-numotestkeys.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62F974D6ED604239AAF138B8 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		66A38FA739564A76A158D59F /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-numotestkeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numotestkeys.debug.xcconfig"; path = "Target Support Files/Pods-numotestkeys/Pods-numotestkeys.debug.xcconfig"; sourceTree = "<group>"; };
+		72901DE922FC45E4A179F293 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-numotestkeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numotestkeys.release.xcconfig"; path = "Target Support Files/Pods-numotestkeys/Pods-numotestkeys.release.xcconfig"; sourceTree = "<group>"; };
+		7E014F141FB4413C9FF1975E /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "numotestkeys/noop-file.swift"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = numotestkeys/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AB1A19FAC7CB4934833B0D3A /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		AE2F3BDE23E548C1B38FF2F4 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		E4AA95B21861402B96331840 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "numotestkeys/noop-file.swift"; sourceTree = "<group>"; };
+		EC22B1187ABB4BB893B22228 /* numotestkeys-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "numotestkeys-Bridging-Header.h"; path = "numotestkeys/numotestkeys-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-numotestkeys/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,9 +65,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				E4AA95B21861402B96331840 /* noop-file.swift */,
-				3C68075265774918A371ADF2 /* numotestkeys-Bridging-Header.h */,
-				1A6C89FD4F58B8FA47DF89E3 /* PrivacyInfo.xcprivacy */,
+				7E014F141FB4413C9FF1975E /* noop-file.swift */,
+				EC22B1187ABB4BB893B22228 /* numotestkeys-Bridging-Header.h */,
+				187FF2E29E25E13946929B3E /* PrivacyInfo.xcprivacy */,
 			);
 			name = numotestkeys;
 			sourceTree = "<group>";
@@ -79,6 +79,17 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-numotestkeys.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		490834FCB0B348979773C7F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66A38FA739564A76A158D59F /* Inter-Bold.ttf */,
+				72901DE922FC45E4A179F293 /* Inter-Medium.ttf */,
+				AE2F3BDE23E548C1B38FF2F4 /* Inter-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -97,7 +108,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				87596EB0027744638D169D77 /* Resources */,
+				490834FCB0B348979773C7F5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -110,17 +121,6 @@
 				13B07F961A680F5B00A75B9A /* numotestkeys.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		87596EB0027744638D169D77 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				62F974D6ED604239AAF138B8 /* Inter-Bold.ttf */,
-				AB1A19FAC7CB4934833B0D3A /* Inter-Medium.ttf */,
-				3313B7880E3F4080A0C45BC8 /* Inter-SemiBold.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		92DBD88DE9BF7D494EA9DA96 /* numotestkeys */ = {
@@ -165,13 +165,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "numotestkeys" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				6430960642B1DBD51781C6E3 /* [Expo] Configure project */,
+				7FD757DA905B80647940601F /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				B43D3FBC75831A3C9688605C /* [CP] Embed Pods Frameworks */,
+				9BC0EC17B1561084237C3494 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,10 +221,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				0AEE3CBE8DB3428BB90DB640 /* Inter-Bold.ttf in Resources */,
-				907B48720CCA4399898F1F30 /* Inter-Medium.ttf in Resources */,
-				FA81CA6DB1314354909F1B47 /* Inter-SemiBold.ttf in Resources */,
-				ACFEA4F311EC1CB35012D4DE /* PrivacyInfo.xcprivacy in Resources */,
+				05F7DB15A6DC4D6E93DA836B /* Inter-Bold.ttf in Resources */,
+				985D40273BBB44569A678C07 /* Inter-Medium.ttf in Resources */,
+				059804AB6BB44F7FB94874B0 /* Inter-SemiBold.ttf in Resources */,
+				08DE360646D36726F6BB052B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6430960642B1DBD51781C6E3 /* [Expo] Configure project */ = {
+		7FD757DA905B80647940601F /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -297,6 +297,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoSystemUI/ExpoSystemUI_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
 			);
@@ -305,6 +306,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoSystemUI_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RNCAsyncStorage_resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
 			);
@@ -313,7 +315,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numotestkeys/Pods-numotestkeys-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B43D3FBC75831A3C9688605C /* [CP] Embed Pods Frameworks */ = {
+		9BC0EC17B1561084237C3494 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,7 +343,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				BC9509CA5B1E4EFD9BB52C7F /* noop-file.swift in Sources */,
+				468A1990F9FF418691CF0014 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +373,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimbleninja.numo-test-keys";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbleninja.numotestkeys;
 				PRODUCT_NAME = numotestkeys;
 				SWIFT_OBJC_BRIDGING_HEADER = "numotestkeys/numotestkeys-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -399,7 +401,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimbleninja.numo-test-keys";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbleninja.numotestkeys;
 				PRODUCT_NAME = numotestkeys;
 				SWIFT_OBJC_BRIDGING_HEADER = "numotestkeys/numotestkeys-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

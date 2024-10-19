@@ -3,6 +3,7 @@ import React from 'react'
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { selectHistory, updateHistoryRecord } from '../store/history'
 import LikeButton from '../components/LikeButton'
+import StyledText from '../components/StyledText'
 
 const HistoryScreen = () => {
   const dispatch = useAppDispatch()
@@ -19,7 +20,7 @@ const HistoryScreen = () => {
         renderItem={({ item }) => {
           return (
             <View style={styles.jokeItem}>
-              <Text style={styles.jokeText}>{item.text}</Text>
+              <StyledText style={[styles.jokeText]}>{item.text}</StyledText>
               <LikeButton onPress={() => likeJokeHandler(item.id, item.like)} liked={item.like} />
             </View>
           )

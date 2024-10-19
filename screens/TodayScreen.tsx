@@ -1,9 +1,10 @@
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, StyleSheet, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { isJokeToday } from '../tools/jokes'
 import { getJokeThunk, selectHistory, updateHistoryRecord } from '../store/history'
 import LikeButton from '../components/LikeButton'
+import StyledText from '../components/StyledText'
 
 const TodayScreen = () => {
   const dispatch = useAppDispatch()
@@ -41,11 +42,11 @@ const TodayScreen = () => {
     <View style={styles.container}>
       {jokes.length ? (
         <View style={styles.joke}>
-          <Text style={styles.jokeText}>{jokes[0].text}</Text>
+          <StyledText style={styles.jokeText}>{jokes[0].text}</StyledText>
           <LikeButton liked={jokes[0].like} onPress={likeJokeHandler} />
         </View>
       ) : (
-        <Text style={styles.emptyListTitle}>Empty history...</Text>
+        <StyledText style={styles.emptyListTitle}>Empty history...</StyledText>
       )}
     </View>
   )
